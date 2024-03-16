@@ -7,3 +7,5 @@ streamlit
 transformers
 youtube-transcript-api
 textwrap3
+tensorflow
+torch
