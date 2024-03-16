@@ -96,7 +96,7 @@ if st.sidebar.button('Summarize'):
         doc = doc + ' ' + line['text']
 
     # Perform abstractive summarization
-    summarizer = pipeline('summarization')
+    summarizer = pipeline('summarization',model='sshleifer/distilbart-cnn-12-6')
 
     # Break the text into smaller chunks for summarization
     result = doc
